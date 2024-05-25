@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Krusty Krab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img id="header-img" src="images/krustykrab.png" alt="Krusty Krab">
+        <h1>The Krusty Krab</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order Form</a></li>
+            </ul>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="menu">Menu</h2>
+            <div>
+                <article>
+                    <img src="images/krabbypatty.png" alt="Krabby Patty">
+                    <h3>Krabby Patty</h3>
+                    <p>Our signature sandwich! A delicious patty made from a secret recipe, topped with lettuce, cheese, pickles, onions, and tomatoes.</p>
+                </article>
+                <article>
+                    <img src="images/kelpshake.png" alt="Kelp Shake">
+                    <h3>Kelp Shake</h3>
+                    <p>Our famous kelp shake! A refreshing drink made from kelp harvested from the ocean floor.</p>
+                </article>
+                <article>
+                    <img src="images/coralbits.png" alt="Coral Bits">
+                    <h3>Coral Bits</h3>
+                    <p>Our crunchy coral bits! Like a delicious French-Fries ¡¡From the ocean!! Made from real coral harvested from the ocean floor.</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <h2 id="order-form">Place your order</h2>
+            <form method="dialog">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <!--Radio buttons for add-ons-->
+                <fieldset>
+                    <legend>Krabby-patty</legend>
+                    <label for="Krabby Patty">Number:</label>
+                    <input type="number" id="krabby-patty" name="krabby-patty" min="0" value="0">
+                    <input type="radio" id="cheese" name="add-ons" value="cheese">
+                    <label for="cheese">Cheese</label>
+                    <input type="radio" id="pickles" name="add-ons" value="pickles">
+                    <label for="pickles">Pickles</label>
+                    <input type="radio" id="onions" name="add-ons" value="onions">
+                    <label for="onions">Onions</label>
+                    <input type="radio" id="tomatoes" name="add-ons" value="tomatoes">
+                    <label for="tomatoes">Tomatoes</label>
+                    <input type="radio" id="lettuce" name="add-ons" value="lettuce">
+                    <label for="lettuce">Lettuce</label>
+                    <textarea id="special-instructions" name="special-instructions" placeholder="Special requests"></textarea>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Kelp Shake</legend>
+                    <label for="Kelp Shake">Number:</label>
+                    <input type="number" id="kelp-shake" name="kelp-shake" min="0" value="0">
+                    <input type="radio" id="seaweed" name="add-ons" value="seaweed">
+                    <label for="seaweed">Seaweed</label>
+                    <input type="radio" id="algae" name="add-ons" value="algae">
+                    <label for="algae">Algae</label>
+                    <input type="radio" id="kelp" name="add-ons" value="kelp">
+                    <label for="kelp">Kelp</label>
+                    <input type="radio" id="seawater" name="add-ons" value="seawater">
+                    <label for="seawater">Seawater</label>
+                    <input type="radio" id="salt" name="add-ons" value="salt">
+                    <label for="salt">Salt</label>
+                    <textarea id="special-instructions" name="special-instructions" placeholder="Special requests"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Coral Bits</legend>
+                    <label for="Coral Bits">Number:</label>
+                    <input type="number" id="coral-bits" name="coral-bits" min="0" value="0">
+                    <input type="radio" id="ketchup" name="add-ons" value="ketchup">
+                    <label for="ketchup">Ketchup</label>
+                    <input type="radio" id="salt" name="add-ons" value="salt">
+                    <label for="salt">Salt</label>
+                    <input type="radio" id="pepper" name="add-ons" value="pepper">
+                    <label for="pepper">Pepper</label>
+                    <input type="radio" id="vinegar" name="add-ons" value="vinegar">
+                    <label for="vinegar">Vinegar</label>
+                    <input type="radio" id="mustard" name="add-ons" value="mustard">
+                    <label for="mustard">Mustard</label>
+                    <textarea id="special-instructions" name="special-instructions" placeholder="Special requests"></textarea>
+
+                </fieldset>
+
+                <input type="submit" value="Go To Checkout">
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Krusty Krab</p>
+        <p>Made with love by Sam22G</p>
+    </footer>
+    
+</body>
+</html>

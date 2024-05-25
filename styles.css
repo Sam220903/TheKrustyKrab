@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F0F0F2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #BEBAD9;
+}
+
+header h1{
+    color: #A61731;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #4C428C;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header nav ul li a:hover{
+    background-color: #4C428C;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 21px;
+}
+
+#header-img{
+    max-width: 100px;
+}
+
+article img{
+    max-width: 80px;
+}
+
+main{
+    color: #4C428C;
+    padding: 20px 50px;
+    display: block;
+    text-align: center;
+}
+
+
+section div{
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2{
+    color: #A61731;
+    margin: 20px 0;
+}
+
+main p{
+    margin: 10px 0;
+}
+
+
+article{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #BEBAD9;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 85%;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #BEBAD9;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+form input[type="text"]{
+    width: 50%;
+}
+
+form input[type="submit"]{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C428C;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover{
+    background-color: #A61731;
+    transition: 0.3s;
+    font-size: larger;
+}
+
+form label{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: large;
+}
+
+form legend{
+    font-weight: 700;
+    font-size: x-large;
+    color: #4C428C;
+}
+
+form fieldset{
+    border: none;
+    width: 80%;
+    margin: 10px 0;
+}
+
+form fieldset textarea{
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+footer{
+    background-color: #BEBAD9;
+    padding: 10px 50px;
+    text-align: center;
+    color: #4C428C;
+    font-weight: 700;
+}
+
+
